@@ -1,0 +1,209 @@
+@font-face{
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-size: 1em;
+}
+@font-face{
+	font-family: 'OpenSansLight';
+	src: url('../fonts/OpenSans-Light.ttf');
+}
+
+header {
+	width: 100%;
+	height: 150px;
+	background: #5E299A;
+	position: relative;
+}
+
+header .container{
+	color: #FFF;
+}
+
+
+header .header-black{
+	background: #000;
+	height: 40px;
+}
+
+header .header-black ul{
+	position: absolute;
+	right: 40px;
+}
+
+header .header-black li{
+	background-image: url("../img/clubes.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	list-style: none;
+}
+
+header .header-black li a{
+	display: inline-block;
+	height: 35px;
+	width: 50px;
+}
+
+.logotipo{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	z-index: 1;
+}
+.slider{
+	position: relative;
+	} 
+.theme-text-banner{
+	font-weight: bold;
+	z-index: 1;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9);
+	font-family: 'OpenSansLight';
+	position: absolute;
+	
+}
+.slider .texto-banner-h1{
+	top: 30%;
+	left: 50px;
+	color: rgba(255,255,255,.9);
+	font-size: 10em;
+}
+.slider .texto-banner-h2{
+	top: 50%;
+	left: 60px;
+	color: rgba(255,255,255,.9);
+	font-size: 3em;
+}
+.menu{
+	position: absolute;
+	top: 50%;
+	right: 0px;
+}
+.menu-ul li{
+	font-family: 'OpenSans';
+	list-style: none;
+	display: inline;
+	padding-right: 60px;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+
+}
+.menu-ul li a{
+	color: white;
+}
+
+.input-search{
+	line-height: 30px;
+	width: 200px;
+	font-family: 'OpenSans';
+	border: 1px solid white;
+	color:white;
+	font-weight: bold;
+	background: transparent;
+
+}
+
+.input-search:focus{
+	font-weight: bold;
+	font-family: 'OpenSans';
+	border: 1px solid white;
+	color: white;
+	padding: 5px 25px 5px 5px;
+	background:rgba(255, 255, 255, 0.2);
+}
+.icon-search{
+	position: relative;
+	right: 30px;
+}
+::placeholder{
+	opacity: .7;
+	color:white;	
+}
+
+.slider{
+	width: 100%;
+}
+
+.clube-01{
+	background-position: 0px 0px;
+}
+
+
+.clube-02{
+	background-position: -50px 0px;
+}
+
+.clube-03{
+	background-position: -100px 0px;
+}
+.clube-04{
+	background-position: -150px 0px;
+}
+.clube-05{
+	background-position: -190px 0px;
+}
+
+.clube-06{
+	background-position: -240px 0px;
+}
+
+.clube-07{
+	background-position: -290px 0px;
+}
+
+.clube-08{
+	background-position: -340px 0px;
+}
+
+.clube-09{
+	background-position: -390px 0px;
+}
+
+.clube-10{
+	background-position: -440px 0px;
+}
+
+.clube-11{
+	background-position: -490px 0px;
+}
+
+.clube-12{
+	background-position: -540px 0px;
+}
+
+.clube-13{
+	background-position: -590px 0px;
+}
+
+.clube-14{
+	background-position: -630px 0px;
+}
+
+.clube-15{
+	background-position: -670px 0px;
+}
+
+.clube-16{
+	background-position: -715px 0px;
+}
+
+
+.clube-17{
+	background-position: -765px 0px;
+}
+.clube-18{
+	background-position: -815px 0px;
+}
+
+.clube-19{
+	background-position: -860px 0px;
+}
+
+.clube-20{
+	background-position: -910px 0px;
+}
+
+.clube-21{
+	background-position: -960px 0px;
+}
